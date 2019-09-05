@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- BOOTSTRAP -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <!-- LOCAL CSS -->
   <link rel="stylesheet" href="css/style.css">
   <title>Bootstrap Theme</title>
@@ -17,59 +17,134 @@
   <!-- STORY BEGINS -->
   <nav class="navbar navbar-tweaks navbar-expand-md ">
     <!-- HOME LINK -->
-  <a class="navbar-brand text-light" href="#">Griffith Observatory</a>
-  <!-- HAMBURGER -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fas fa-bars"></i>
-    <!-- <span class="navbar-toggler-icon text-light"></span>     TODO: MAYBE DELETE -->
-  </button>
-  <!-- LIST OF ITEMS -->
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link px-5 text-light" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item px-3">
-        <a class="nav-link text-light" href="#">Location</a>
-      </li>
-      <li class="nav-item px-3">
-        <a class="nav-link text-light" href="#">Contact Us</a>
-      </li>
-      <li class="nav-item dropdown pl-3">
-        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Things to Do
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+    <a class="navbar-brand text-light" href="#">Griffith Observatory</a>
+    <!-- HAMBURGER -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <!-- LIST OF ITEMS -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link px-3 text-light" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 text-light" href="#hours">Hours <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 text-light" href="#">Location</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link text-light" href="#">Contact</a>
+        </li>
+        <li class="nav-item dropdown pl-3">
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Activities
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+  <!-- SECTION: PHOTO WITH TEXT AND BUTTON -->
+  <section id="main-photo" class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 py-3 ">
         </div>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-
-
-<!--
-<div class="main-photo">
-  <img class="img-fluid img-main-photo" src="https://images.unsplash.com/photo-1518533954129-7774297db60f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2978&q=80" />
-</div>
--->
-
-<!-- SECTION: PHOTO WITH TEXT AND BUTTON -->
-<section id="main-photo" class="text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 py-3 ">
-
       </div>
     </div>
-  </div>
+  </section>
+  <!-- BUTTON INSIDE PIC -->
+  <section class="d-flex justify-content-center">
+    <div class="visit-button">
+      <!-- TAKES USER TO LOCATION TAB -->
+      <a href="#" class="btn btn-lg font-weight-bold btn-outline-secondary text-light px-5">Plan Visit</a>
+    </div>
+  </section>
 
-</section>
+  <!-- SECTION HOURS -->
+  <section id="hours" class="container-fluid">
+    <!-- ROW TITLE -->
+    <div class="row">
+      <div class="col-sm-12 py-5">
+        <h2 class="text-center text-light">Hours</h2>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-sm-4 bg-light">
+        <div class="p-3">
+          <h4 class="text-center py-2">Holidays Closed</h4>
+          <p><span class="font-weight-bold">Jan:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Feb:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Mar:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Apr:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">May:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Jun:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Jul:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Aug:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Sep:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Oct:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Nov:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Dec:</span> 8:00am - 8pm</p>
+        </div>
+      </div>
+      <div class="col-sm-4 bg-light">
+        <div class="p-3">
+          <h4 class="text-center py-2">Open Time</h4>
+          <p><span class="font-weight-bold">Mon:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Tue:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Wen:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Thu:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Fri:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Sat:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Sun:</span> 8:00am - 8pm</p>
+        </div>
+      </div>
+      <div class="col-sm-4 bg-light">
+        <div class="p-3">
+          <h4 class="text-center py-2">Events</h4>
+          <p><span class="font-weight-bold">Mon:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Tue:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Wen:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Thu:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Fri:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Sat:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Sun:</span> 8:00am - 8pm</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- LOCATION HOURS -->
+  <section id="location" class="container-fluid bg-dark text-light">
+    <!-- ROW TITLE -->
+    <div class="row">
+      <div class="col-sm-12 py-5">
+        <h2 class="text-center ">Location</h2>
+      </div>
+    </div>
+    <div class="row ">
+      <img id="location-image" class="img-fluid" src="https://images.unsplash.com/photo-1563125569-f4a59e9f9311?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80" />
+    </div>
+    <div class="row">
 
+      <div class="col text-center  p-3">
+        <p>
+          <span class="font-weight-bold">Address: </span> 123 Sesame Street Compton CA 90222
+        </p>
+      </div>
+
+    </div>
+  </section>
 
 
 
@@ -79,9 +154,8 @@
   <!-- FONT AWSOME -->
   <script src="https://kit.fontawesome.com/10a1582225.js"></script>
   <!-- jquery -->
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-    <!-- JAVASCRIPT FOR BOOTSTRAP CLASSES -->
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <!-- JAVASCRIPT FOR BOOTSTRAP CLASSES -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <!-- JAVASCRIPT -->
   <script>

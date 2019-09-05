@@ -8,14 +8,9 @@ body {
 
 }
 
-/*
-.main-photo {
-margin-top: -60px;
-}
-*/
+.visit-button {
+  margin-top: -100px;
 
-.img-main-photo {
-  min-height: 600px;
 }
 
 
@@ -25,7 +20,12 @@ margin-top: -60px;
   background-size: cover;
   background-position: center center;
   min-height: 750px;
+  
   height: auto;
+}
+
+#location-image {
+  max-height: 500px;
 }
 
 @media only screen and (max-width: 600px) {
