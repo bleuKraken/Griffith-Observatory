@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
   <!-- BOOTSTRAP -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <!-- LOCAL CSS -->
@@ -16,7 +15,6 @@
 <body>
   <!-- STORY BEGINS -->
   <nav class="navbar navbar-tweaks navbar-expand-md ">
-    <!-- HOME LINK -->
     <a class="navbar-brand text-light" href="#">Griffith Observatory</a>
     <!-- HAMBURGER -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +27,6 @@
           <a class="nav-link px-3 text-light" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <!-- TODO: Maybe, change to "Plan Visit." MAYBE DELETE -->
           <a class="nav-link px-3 text-light " href="#hours">Hours <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
@@ -42,6 +39,7 @@
           <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Activities
           </a>
+          <!-- DROPDOWN -->
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">Action</a>
             <a class="dropdown-item" href="#">Another action</a>
@@ -52,9 +50,6 @@
     </div>
   </nav>
 
-
-
-
   <!-- SECTION: PHOTO WITH TEXT AND BUTTON -->
   <section id="main-photo" class="text-center">
     <div class="container">
@@ -64,6 +59,7 @@
       </div>
     </div>
   </section>
+
   <!-- BUTTON INSIDE PIC -->
   <section class="d-flex justify-content-center">
     <div class="visit-button">
@@ -73,67 +69,77 @@
   </section>
 
 
-<!-- SECTION SCROLLABLE IMAGE -->
-<section class="">
-  <!-- LARGE PHOTO OF LIBRARY -->
-  <div id="official-link" class="">
-    <div class="pt-3 container-fluid">
+  <!-- SECTION SCROLLABLE IMAGE -->
+  <section class="">
+    <!-- LARGE PHOTO OF LIBRARY -->
+    <div id="visit-official-photo-link" class="">
+      <div class="pt-3 container-fluid">
+      </div>
     </div>
-  </div>
-  <!-- ROW TITLE -->
-  <div class="row">
-    <div class="col-sm-12 ">
-      <h2 id="official-text" class="text-center text-warning">Visit Official Site</h2>
+    <!-- ROW TITLE -->
+    <div class="row">
+      <div class="col-sm-12 ">
+        <h2 id="official-text" class="text-center text-light text-lg">Visit Official Site</h2>
+      </div>
     </div>
-  </div>
-</section>
-
+  </section>
 
   <!-- SECTION HOURS -->
   <section id="hours" class="container-fluid">
-
     <!-- ROW HOLIDAY CLOSED -->
     <div class="row ">
-
+      <!-- COL LEFT -->
       <div class="col-sm-4 bg-light">
         <div class="p-3">
-          <h4 class=" py-2">Hours</h4>
-          <p><span class="font-weight-bold">Mon:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Tue:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Wen:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Thu:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Fri:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Sat:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Sun:</span> 8:00am - 8pm</p>
+          <h4 class="font-weight-bold py-2">Hours</h4>
+          <p><span class="font-weight-bold">Mon:</span> Monday Closed</p>
+          <p><span class="font-weight-bold">Tue:</span> 12:00 noon - 10:00 p.m.</p>
+          <p><span class="font-weight-bold">Wen:</span> 12:00 noon - 10:00 p.m.</p>
+          <p><span class="font-weight-bold">Thu:</span> 12:00 noon - 10:00 p.m.</p>
+          <p><span class="font-weight-bold">Fri:</span> 12:00 noon - 10:00 p.m.</p>
+          <p><span class="font-weight-bold">Sat:</span> 10:00 a.m. - 10:00 p.m.</p>
+          <p><span class="font-weight-bold">Sun:</span> 10:00 a.m. - 10:00 p.m.</p>
         </div>
       </div>
+      <!-- COL MIDDLE -->
       <div class="col-sm-4 bg-light">
         <div class="p-3">
-          <h4 class=" py-2">Holidays Closed</h4>
-          <p><span class="font-weight-bold">Jan:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Feb:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Mar:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Apr:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">May:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Jun:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Jul:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Aug:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Sep:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Oct:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Nov:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Dec:</span> 8:00am - 8pm</p>
+          <h4 class="font-weight-bold py-2">Price</h4>
+          Admission to the building and grounds is always FREE.
         </div>
       </div>
+      <!-- COL RIGHT -->
       <div class="col-sm-4 bg-light">
+        <!-- TODO: try shrinking these 2 lines below. -->
         <div class="p-3">
-          <h4 class=" py-2">Events</h4>
-          <p><span class="font-weight-bold">Mon:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Tue:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Wen:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Thu:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Fri:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Sat:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Sun:</span> 8:00am - 8pm</p>
+          <!-- SECTION -->
+          <h4 class="font-weight-bold py-2">Visitor Information</h4>
+          <p class="">
+            <span class="font-weight-bold">Free WiFi</span>
+            The observatory offers free WiFi service on its exterior.</p>
+          <p class="">
+            <span class="font-weight-bold">No Smoking</span>
+            All forms of smoking - including e-cigarettes and vaping - are prohibited.</p>
+          <p class="">
+            <span class="font-weight-bold">No Drones</span>
+            It is illegal to fly a drone anywhere in Griffith Park.</p>
+            <!-- OBSERVATORY NEWS -->
+            <div class="d-none d-md-block">  <!-- HIDES BELOW SIZE MD -->
+              <h4 class="font-weight-bold py-2">Astronomy News</h4>
+          <a href="#">Weekly Sky Report</a>
+          <p class="">Describes what is visible in the Los Angeles evening sky.</p>
+          <a href="#">Did you find a meteorite?</a>
+          <p class="">Check out this site for information.</p>
+          <hr>
+          <!-- OBSERVATORY NEWS -->
+          <div class="d-none d-md-block">  <!-- HIDES BELOW SIZE MD -->
+            <h4 class="font-weight-bold py-2">Observatory News</h4>
+            <a href="#">Observatory News Archives</a>
+            <p class="">A listing of prior events and activities.</p>
+            <a href="#">Follow Griffith Observatory TV!</a>
+            <p class="">Watch live and archived events.</p>
+            <hr>
+          </div>
         </div>
       </div>
     </div>
@@ -154,8 +160,8 @@
       </div>
       <div class="col-sm-6">
         <div id="address-text">
-          <span  class="font-weight-bold">Address: </span>
-           2800 E Observatory Rd, Los Angeles, CA 90027
+          <span class="font-weight-bold">Address: </span>
+          2800 E Observatory Rd, Los Angeles, CA 90027
         </div>
       </div>
     </div>
@@ -194,8 +200,8 @@
       <!-- COL TEXT -->
       <div class="col-sm-6">
         <div id="address-text">
-          <span  class="font-weight-bold">Address: </span>
-           2800 E Observatory Rd, Los Angeles, CA 90027
+          <span class="font-weight-bold">Address: </span>
+          2800 E Observatory Rd, Los Angeles, CA 90027
         </div>
       </div>
       <!-- COL IMAGE -->
@@ -205,9 +211,21 @@
     </div>
   </section>
 
-
-
-
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <!-- TOP SECTION -->
+          <div class="text-center text-light">
+            <h4 class="">Thank you for viewing.</h4>
+            <p class="">
+              Created by: Erick Gonzalez
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
   <!-- FONT AWSOME -->

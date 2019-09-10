@@ -13,6 +13,10 @@ body {
 
 }
 
+.text-lg {
+  font-size: 2.5rem;
+}
+
 #address-text {
   margin-top: 75px;
 }
@@ -30,10 +34,10 @@ body {
   height: auto;
 }
 
-#official-link {
+#visit-official-photo-link {
   background-size: 100%;
   min-height: 250px;
-  background: url("https://source.unsplash.com/1920x1080/?griffith");
+  background: url("https://images.unsplash.com/photo-1533282960533-51328aa49826?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3860&q=80");
   background-attachment: fixed;
   background-position: center;
   text-align: center;
