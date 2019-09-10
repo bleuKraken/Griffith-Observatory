@@ -13,6 +13,13 @@ body {
 
 }
 
+#address-text {
+  margin-top: 75px;
+}
+#official-text {
+  margin-top: -150px;
+}
+
 
 #main-photo {
   margin-top: -60px;
@@ -20,8 +27,28 @@ body {
   background-size: cover;
   background-position: center center;
   min-height: 750px;
-  
   height: auto;
+}
+
+#official-link {
+  background-size: 100%;
+  min-height: 250px;
+  background: url("https://source.unsplash.com/1920x1080/?griffith");
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+}
+
+#nasa-link {
+  background-size: 100%;
+  min-height: 150px;
+  background: url("https://source.unsplash.com/1920x1080/?nasa");
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+
 }
 
 #location-image {

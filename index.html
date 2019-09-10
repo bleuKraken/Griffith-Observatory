@@ -29,13 +29,14 @@
           <a class="nav-link px-3 text-light" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-3 text-light" href="#hours">Hours <span class="sr-only">(current)</span></a>
+          <!-- TODO: Maybe, change to "Plan Visit." MAYBE DELETE -->
+          <a class="nav-link px-3 text-light " href="#hours">Hours <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-3 text-light" href="#">Location</a>
+          <a class="nav-link px-3 text-light" href="#location">Location</a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link text-light" href="#">Contact</a>
+          <a class="nav-link text-light" href="#contact">Contact</a>
         </li>
         <li class="nav-item dropdown pl-3">
           <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -71,18 +72,44 @@
     </div>
   </section>
 
+
+<!-- SECTION SCROLLABLE IMAGE -->
+<section class="">
+  <!-- LARGE PHOTO OF LIBRARY -->
+  <div id="official-link" class="">
+    <div class="pt-3 container-fluid">
+    </div>
+  </div>
+  <!-- ROW TITLE -->
+  <div class="row">
+    <div class="col-sm-12 ">
+      <h2 id="official-text" class="text-center text-warning">Visit Official Site</h2>
+    </div>
+  </div>
+</section>
+
+
   <!-- SECTION HOURS -->
   <section id="hours" class="container-fluid">
-    <!-- ROW TITLE -->
-    <div class="row">
-      <div class="col-sm-12 py-5">
-        <h2 class="text-center text-light">Hours</h2>
-      </div>
-    </div>
+
+    <!-- ROW HOLIDAY CLOSED -->
     <div class="row ">
+
       <div class="col-sm-4 bg-light">
         <div class="p-3">
-          <h4 class="text-center py-2">Holidays Closed</h4>
+          <h4 class=" py-2">Hours</h4>
+          <p><span class="font-weight-bold">Mon:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Tue:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Wen:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Thu:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Fri:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Sat:</span> 8:00am - 8pm</p>
+          <p><span class="font-weight-bold">Sun:</span> 8:00am - 8pm</p>
+        </div>
+      </div>
+      <div class="col-sm-4 bg-light">
+        <div class="p-3">
+          <h4 class=" py-2">Holidays Closed</h4>
           <p><span class="font-weight-bold">Jan:</span> 8:00am - 8pm</p>
           <p><span class="font-weight-bold">Feb:</span> 8:00am - 8pm</p>
           <p><span class="font-weight-bold">Mar:</span> 8:00am - 8pm</p>
@@ -99,19 +126,7 @@
       </div>
       <div class="col-sm-4 bg-light">
         <div class="p-3">
-          <h4 class="text-center py-2">Open Time</h4>
-          <p><span class="font-weight-bold">Mon:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Tue:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Wen:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Thu:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Fri:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Sat:</span> 8:00am - 8pm</p>
-          <p><span class="font-weight-bold">Sun:</span> 8:00am - 8pm</p>
-        </div>
-      </div>
-      <div class="col-sm-4 bg-light">
-        <div class="p-3">
-          <h4 class="text-center py-2">Events</h4>
+          <h4 class=" py-2">Events</h4>
           <p><span class="font-weight-bold">Mon:</span> 8:00am - 8pm</p>
           <p><span class="font-weight-bold">Tue:</span> 8:00am - 8pm</p>
           <p><span class="font-weight-bold">Wen:</span> 8:00am - 8pm</p>
@@ -124,7 +139,7 @@
     </div>
   </section>
 
-  <!-- LOCATION HOURS -->
+  <!-- LOCATION -->
   <section id="location" class="container-fluid bg-dark text-light">
     <!-- ROW TITLE -->
     <div class="row">
@@ -132,17 +147,61 @@
         <h2 class="text-center ">Location</h2>
       </div>
     </div>
-    <div class="row ">
-      <img id="location-image" class="img-fluid" src="https://images.unsplash.com/photo-1563125569-f4a59e9f9311?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80" />
-    </div>
+    <!-- ROW OF 2 COLUMNS -->
     <div class="row">
-
-      <div class="col text-center  p-3">
-        <p>
-          <span class="font-weight-bold">Address: </span> 123 Sesame Street Compton CA 90222
-        </p>
+      <div class="col-sm-6 p-0">
+        <img id="location-image" class="img-fluid" src="https://images.unsplash.com/photo-1554175339-3239bdeecf63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2978&q=80" />
       </div>
+      <div class="col-sm-6">
+        <div id="address-text">
+          <span  class="font-weight-bold">Address: </span>
+           2800 E Observatory Rd, Los Angeles, CA 90027
+        </div>
+      </div>
+    </div>
+    <!-- ROW FOOTER -->
+    <div id="location-footer" class="row">
+      <div class="col-sm-12 py-5">
+      </div>
+    </div>
+  </section>
 
+  <!-- SECTION SCROLLABLE IMAGE -->
+  <section class="">
+    <!-- LARGE PHOTO OF LIBRARY -->
+    <div id="nasa-link" class="">
+      <div class="pt-3 container-fluid">
+      </div>
+    </div>
+    <!-- ROW TITLE -->
+    <div class="row">
+      <div class="col-sm-12 ">
+        <h2 id="official-text" class="text-center text-primary py-5">Visit Nasa</h2>
+      </div>
+    </div>
+  </section>
+
+  <!--  CONTACT -->
+  <section id="contact" class="container-fluid bg-dark text-light">
+    <!-- ROW TITLE -->
+    <div class="row">
+      <div class="col-sm-12 py-5">
+        <h2 class="text-center ">Contact</h2>
+      </div>
+    </div>
+    <!-- ROW OF 2 COLUMNS -->
+    <div class="row">
+      <!-- COL TEXT -->
+      <div class="col-sm-6">
+        <div id="address-text">
+          <span  class="font-weight-bold">Address: </span>
+           2800 E Observatory Rd, Los Angeles, CA 90027
+        </div>
+      </div>
+      <!-- COL IMAGE -->
+      <div class="col-sm-6 p-0">
+        <img id="location-image" class="img-fluid" src="https://source.unsplash.com/1921x1080/?griffith" />
+      </div>
     </div>
   </section>
 
