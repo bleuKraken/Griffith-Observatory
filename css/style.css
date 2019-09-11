@@ -17,9 +17,7 @@ body {
   font-size: 2.5rem;
 }
 
-#address-text {
-  margin-top: 75px;
-}
+
 #official-text {
   margin-top: -150px;
 }
@@ -46,8 +44,9 @@ body {
 
 #nasa-link {
   background-size: 100%;
-  min-height: 150px;
-  background: url("https://source.unsplash.com/1920x1080/?nasa");
+  min-height: 180px;
+  background: url("https://images.unsplash.com/photo-1554175339-3239bdeecf63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2978&q=80");
+  background-size: contain;
   background-attachment: fixed;
   background-position: center;
   text-align: center;

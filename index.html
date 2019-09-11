@@ -92,13 +92,9 @@
       <div class="col-sm-4 bg-light">
         <div class="p-3">
           <h4 class="font-weight-bold py-2">Hours</h4>
-          <p><span class="font-weight-bold">Mon:</span> Monday Closed</p>
-          <p><span class="font-weight-bold">Tue:</span> 12:00 noon - 10:00 p.m.</p>
-          <p><span class="font-weight-bold">Wen:</span> 12:00 noon - 10:00 p.m.</p>
-          <p><span class="font-weight-bold">Thu:</span> 12:00 noon - 10:00 p.m.</p>
-          <p><span class="font-weight-bold">Fri:</span> 12:00 noon - 10:00 p.m.</p>
-          <p><span class="font-weight-bold">Sat:</span> 10:00 a.m. - 10:00 p.m.</p>
-          <p><span class="font-weight-bold">Sun:</span> 10:00 a.m. - 10:00 p.m.</p>
+          <p><span class="font-weight-bold d-block">Monday</span> Closed</p>
+          <p><span class="font-weight-bold d-block">Tuesday - Friday</span> 12:00 noon - 10:00 p.m.</p>
+          <p><span class="font-weight-bold d-block">Saturday - Sunday</span> 10:00 a.m. - 10:00 p.m.</p>
         </div>
       </div>
       <!-- COL MIDDLE -->
@@ -123,51 +119,18 @@
           <p class="">
             <span class="font-weight-bold">No Drones</span>
             It is illegal to fly a drone anywhere in Griffith Park.</p>
-            <!-- OBSERVATORY NEWS -->
-            <div class="d-none d-md-block">  <!-- HIDES BELOW SIZE MD -->
-              <h4 class="font-weight-bold py-2">Astronomy News</h4>
-          <a href="#">Weekly Sky Report</a>
-          <p class="">Describes what is visible in the Los Angeles evening sky.</p>
-          <a href="#">Did you find a meteorite?</a>
-          <p class="">Check out this site for information.</p>
-          <hr>
-          <!-- OBSERVATORY NEWS -->
-          <div class="d-none d-md-block">  <!-- HIDES BELOW SIZE MD -->
-            <h4 class="font-weight-bold py-2">Observatory News</h4>
-            <a href="#">Observatory News Archives</a>
-            <p class="">A listing of prior events and activities.</p>
-            <a href="#">Follow Griffith Observatory TV!</a>
-            <p class="">Watch live and archived events.</p>
-            <hr>
-          </div>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- LOCATION -->
-  <section id="location" class="container-fluid bg-dark text-light">
-    <!-- ROW TITLE -->
-    <div class="row">
-      <div class="col-sm-12 py-5">
-        <h2 class="text-center ">Location</h2>
+    <!-- ROW PHONE AND ADDRESS -->
+    <div class="row text-light">
+      <div class="col-sm-6 mt-3 text-center">
+        <h4 class="font-weight-bold">Address </h4>
+        <p>2800 E Observatory Rd, Los Angeles, CA 90027</p>
       </div>
-    </div>
-    <!-- ROW OF 2 COLUMNS -->
-    <div class="row">
-      <div class="col-sm-6 p-0">
-        <img id="location-image" class="img-fluid" src="https://images.unsplash.com/photo-1554175339-3239bdeecf63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2978&q=80" />
-      </div>
-      <div class="col-sm-6">
-        <div id="address-text">
-          <span class="font-weight-bold">Address: </span>
-          2800 E Observatory Rd, Los Angeles, CA 90027
-        </div>
-      </div>
-    </div>
-    <!-- ROW FOOTER -->
-    <div id="location-footer" class="row">
-      <div class="col-sm-12 py-5">
+      <div class="col-sm-6 mt-3 text-center">
+        <h4 class="font-weight-bold "> Phone </h4>
+        <p>213-473-0800</p>
       </div>
     </div>
   </section>
@@ -182,34 +145,52 @@
     <!-- ROW TITLE -->
     <div class="row">
       <div class="col-sm-12 ">
-        <h2 id="official-text" class="text-center text-primary py-5">Visit Nasa</h2>
+        <h2 id="official-text" class="text-center text-lg font-weight-bold text-light py-5">Location</h2>
       </div>
     </div>
   </section>
 
-  <!--  CONTACT -->
-  <section id="contact" class="container-fluid bg-dark text-light">
-    <!-- ROW TITLE -->
-    <div class="row">
-      <div class="col-sm-12 py-5">
-        <h2 class="text-center ">Contact</h2>
+<section>
+  <!-- TODO: try removeing the container below, container looks weird inside this -->
+  <!-- ROW BOTTOM -->
+  <div class="row mt-4 bg-dark">
+    <!-- COL 6 -->
+    <div class="col-sm-6">
+      <!-- OBSERVATORY NEWS -->
+      <div class="d-none d-md-block">
+        <!-- TODO: maybe delete, or move class -->
+        <!-- HIDES BELOW SIZE MD -->
+        <h4 class="font-weight-bold py-2 text-light">Astronomy News</h4>
+        <a href="#">Weekly Sky Report</a>
+        <p class="text-light">Describes what is visible in the Los Angeles evening sky.</p>
+        <a href="#">Did you find a meteorite?</a>
+        <p class="text-light">Check out this site for information.</p>
       </div>
     </div>
-    <!-- ROW OF 2 COLUMNS -->
-    <div class="row">
-      <!-- COL TEXT -->
-      <div class="col-sm-6">
-        <div id="address-text">
-          <span class="font-weight-bold">Address: </span>
-          2800 E Observatory Rd, Los Angeles, CA 90027
-        </div>
-      </div>
-      <!-- COL IMAGE -->
-      <div class="col-sm-6 p-0">
-        <img id="location-image" class="img-fluid" src="https://source.unsplash.com/1921x1080/?griffith" />
-      </div>
+    <!-- COL 6 -->
+    <div class="col-sm-6">
+      <!-- OBSERVATORY NEWS -->
+      <!-- HIDES BELOW SIZE MD -->
+      <h4 class="font-weight-bold py-2 text-light">Observatory News</h4>
+      <a href="#">Observatory News Archives</a>
+      <p class="text-light">A listing of prior events and activities.</p>
+      <a href="#">Follow Griffith Observatory TV!</a>
+      <p class="text-light">Watch live and archived events.</p>
     </div>
-  </section>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
 
   <footer>
     <div class="container-fluid">
