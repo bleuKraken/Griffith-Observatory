@@ -3,6 +3,19 @@ body {
 
 }
 
+.text-light{
+  color: rgb(142, 231, 241) !important;
+}
+
+.text-danger {
+  color: rgb(240, 83, 83) !important;
+}
+
+.text-primary {
+  color: rgb(89, 148, 221) !important;
+}
+
+
 .navbar-tweaks {
   background-color: rgb(50, 50, 50, 0.3);
 
@@ -13,12 +26,17 @@ body {
 
 }
 
+.news-content {
+  border: 1px solid white;
+}
+
+
 .text-lg {
   font-size: 2.5rem;
 }
 
 
-#official-text {
+.official-text {
   margin-top: -150px;
 }
 
@@ -32,7 +50,7 @@ body {
   height: auto;
 }
 
-#visit-official-photo-link {
+.visit-official-photo-link {
   background-size: 100%;
   min-height: 250px;
   background: url("https://images.unsplash.com/photo-1533282960533-51328aa49826?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3860&q=80");
@@ -41,6 +59,23 @@ body {
   text-align: center;
   color: #fff;
 }
+
+.griffith-things-to-do-photo-link {
+  background-size: 100%;
+  min-height: 250px;
+  background: url("https://images.unsplash.com/photo-1546624356-62f238e38e2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2551&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+}
+
+.group-info-icons {
+  padding: 50px;
+}
+
+
+
 
 #nasa-link {
   background-size: 100%;
@@ -62,4 +97,6 @@ body {
   #main-photo {
     min-height: 450px;
   }
+
+
 }
