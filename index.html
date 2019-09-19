@@ -14,7 +14,7 @@
 
 <body>
   <!-- STORY BEGINS -->
-  <nav class="navbar navbar-tweaks navbar-expand-md ">
+  <nav class="navbar navbar-tweaks navbar-expand-md">
     <a class="navbar-brand text-light" href="#">Griffith Observatory</a>
     <!-- HAMBURGER -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,9 +41,9 @@
           </a>
           <!-- DROPDOWN -->
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#">Hours</a>
+            <a class="dropdown-item" href="#">Price</a>
+            <a class="dropdown-item" href="#">FAQ</a>
           </div>
         </li>
       </ul>
@@ -68,16 +68,14 @@
     </div>
   </section>
 
-
   <!-- SECTION SCROLLABLE IMAGE -->
   <section class="d-none d-md-block">
     <!-- LARGE PHOTO OF LIBRARY -->
-    <div id="" class="visit-official-photo-link">
-      <div id="" class="pt-3 container-fluid">
-        <a id="" class="official-text text-center text-light  display-3" href="#">Visit Official Site</a>
+    <div class="visit-official-photo-link">
+      <div class="pt-3 container-fluid">
+        <a class="official-text text-center text-light display-3" href="#">Visit Official Site</a>
       </div>
     </div>
-
   </section>
 
   <!-- SECTION HOURS -->
@@ -86,34 +84,47 @@
     <div class="row">
       <!-- COL LEFT -->
       <div class="col-sm-4 bg-light">
-        <p class="text-center group-info-icons">
-          <i class="far fa-clock fa-5x"></i>
-        </p>
-        <div class="">
-          <h4 class="font-weight-bold py-2 pt-4 text-center">Hours</h4>
-          <p><span class="font-weight-bold d-block">Monday</span> Closed</p>
-          <p><span class="font-weight-bold d-block">Tuesday - Friday</span> 12:00 noon - 10:00 p.m.</p>
-          <p><span class="font-weight-bold d-block">Saturday - Sunday</span> 10:00 a.m. - 10:00 p.m.</p>
+        <!-- ICON -->
+        <div class="icon-box d-flex justify-content-center">
+          <p class="text-center group-info-icons text-primary">
+            <i class="far fa-clock fa-5x"></i>
+          </p>
+        </div>
+        <!-- CONTENT -->
+        <div class="griffith-info">
+          <h4 class="font-weight-bold py-2 pb-4 ">Hours</h4>
+          <p class="text-left"><span class="font-weight-bold d-block">Monday</span> Closed</p>
+          <p class="text-left"><span class="font-weight-bold d-block">Tuesday - Friday</span> 12:00 noon - 10:00 p.m.</p>
+          <p class="text-left"><span class="font-weight-bold d-block">Saturday - Sunday</span> 10:00 a.m. - 10:00 p.m.</p>
         </div>
       </div>
       <!-- COL MIDDLE -->
-      <div class="col-sm-4 bg-light bg-primary"> <!-- NOTE: Does background color work?
-        <div class="">
-          <p class="text-center group-info-icons">
-            <i class="fas fa-tags fa-5x "></i>
+      <div class="col-sm-4 bg-light">
+        <!-- ICON -->
+        <div class="icon-box d-flex justify-content-center">
+          <p class="text-center group-info-icons text-primary">
+            <i class="fas fa-tags fa-5x text-danger"></i>
           </p>
-          <h4 class="font-weight-bold pt-5 pb-2  text-center">Price</h4>
-          Admission to the building and grounds is always FREE.
+        </div>
+        <!-- CONTENT -->
+        <div class="griffith-info">
+          <h4 class="font-weight-bold py-2 pb-4 ">Price</h4>
+          <p>
+            Admission to the building and grounds is always FREE.
+          </p>
         </div>
       </div>
       <!-- COL RIGHT -->
       <div class="col-sm-4 bg-light">
-        <div class="">
-          <!-- SECTION -->
-          <p class="text-center group-info-icons">
+        <!-- ICON -->
+        <div class="icon-box d-flex justify-content-center">
+          <p class="text-center group-info-icons text-primary">
             <i class="fas fa-question fa-5x"></i>
           </p>
-          <h4 class="font-weight-bold py-2  text-center pb-4">Visitor Information</h4>
+        </div>
+        <!-- CONTENT -->
+        <div class="griffith-info">
+          <h4 class="font-weight-bold py-2 pb-4">Visitor Information</h4>
           <p class="">
             <span class="font-weight-bold">Free WiFi</span>
             The observatory offers free WiFi service on its exterior.</p>
@@ -123,14 +134,14 @@
           <p class="">
             <span class="font-weight-bold">No Drones</span>
             It is illegal to fly a drone anywhere in Griffith Park.</p>
-            <p>
-              <a href="#">Visit FAQ page</a>
-            </p>
+          <p>
+            <a href="#">Visit FAQ page</a>
+          </p>
         </div>
       </div>
     </div>
     <!-- ROW PHONE AND ADDRESS -->
-    <div class="row text-light py-5">
+    <div class="row bg-success text-dark py-5">
       <div class="col-sm-6 mt-3 text-center">
         <p>
           <i class="fas fa-map-marker-alt text-danger fa-5x"></i>
@@ -146,20 +157,29 @@
     </div>
   </section>
 
-  <!-- SECTION SCROLLABLE IMAGE -->
+  <!-- SECTION SCROLLABLE IMAGE
   <section class="d-none d-md-block">
-
-    <!-- ROW TITLE -->
     <div class="row">
       <div class="col-sm-12 ">
-        <div id="" class="griffith-things-to-do-photo-link">
-          <div id="" class="pt-3 container-fluid">
-            <a id="" class="text-center text-light display-3 official-text" href="#">Griffith Things to Do</a>
+        <div class="griffith-things-to-do-photo-link">
+          <div class="pt-3 container-fluid">
+            <a class="text-center text-light display-3 official-text" href="#">Griffith Things to Do</a>
           </div>
         </div>
      </div>
     </div>
   </section>
+-->
+  <section id="things-to-do">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <a class="text-center text-danger display-4 official-text bg-dark p-3" href="#">Griffith Things to Do</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <!-- SECTION FOOTER -->
   <section class="">
