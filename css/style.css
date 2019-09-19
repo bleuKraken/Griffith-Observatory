@@ -16,6 +16,8 @@ body {
 }
 
 
+
+
 .navbar-tweaks {
   background-color: rgb(50, 50, 50, 0.3);
 
@@ -71,7 +73,9 @@ body {
 }
 
 .group-info-icons {
+  margin-top: 20px;
   padding: 50px;
+  border: 5px solid black;
 }
 
 
