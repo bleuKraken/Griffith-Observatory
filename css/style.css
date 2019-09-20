@@ -14,8 +14,10 @@ body {
   color: rgb(89, 148, 221) !important;
 }
 
+
+
 .bg-success {
-  background-color: rgb(126, 242, 196) !important;
+  background-color: rgb(166, 241, 211) !important;
 }
 
 .navbar-tweaks {
@@ -26,10 +28,6 @@ body {
   margin-top: -100px;
 }
 
-.news-content {
-  border: 1px solid white;
-}
-
 .text-lg {
   font-size: 2.5rem;
 }
@@ -38,14 +36,15 @@ body {
   margin-top: -150px;
 }
 
-#main-photo {
-  margin-top: -60px;
-  background: url("https://images.unsplash.com/photo-1518533954129-7774297db60f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2978&q=80");
-  background-size: cover;
-  background-position: center center;
-  min-height: 750px;
-  height: auto;
+.group-info-icons {
+  margin-top: 20px;
+  padding: 50px;
+  border: 5px solid black;
+  border-radius: 20%;
+  max-width: 250px;
 }
+
+
 
 .visit-official-photo-link {
   background-size: 100%;
@@ -57,23 +56,21 @@ body {
   color: #fff;
 }
 
-/*
-.griffith-things-to-do-photo-link {
-  background-size: 100%;
-  min-height: 250px;
-  background: url("https://images.unsplash.com/photo-1546624356-62f238e38e2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2551&q=80");
-  background-attachment: fixed;
-
-  background-position: center;
-  text-align: center;
+#main-photo {
+  margin-top: -60px;
+  background: url("https://images.unsplash.com/photo-1518533954129-7774297db60f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2978&q=80");
+  background-size: cover;
+  background-position: center center;
+  min-height: 750px;
+  height: auto;
 }
-*/
-.group-info-icons {
-  margin-top: 20px;
-  padding: 50px;
-  border: 5px solid black;
-  border-radius: 20%;
-  max-width: 250px;
+
+#footer {
+  background: url("https://images.unsplash.com/photo-1566035610402-67e4728390c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2648&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  min-height: 300px;
 }
 
 #nasa-link {
@@ -87,9 +84,38 @@ body {
   color: #fff;
 }
 
+#astronomy-news-image {
+  background: url("https://source.unsplash.com/random/500x501/?griffith");
+  /* background-size: contain; */
+  background-position: center center;
+  min-height: 300px;
+}
+
+#observatory-news-image {
+  background: url("https://source.unsplash.com/random/501x500/?griffith");
+  /* background-size: contain; */
+  background-position: center center;
+  min-height: 300px;
+}
+
 #location-image {
   max-height: 500px;
 }
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.vertical-container {
+  /* NEEDED TO MAKE A CONTAINER
+  TODO: Add something here*/
+}
+
+.border-style-1 {
+  border: 2px solid black;
+}
+
 
 @media only screen and (max-width: 600px) {
   #main-photo {
@@ -107,5 +133,9 @@ body {
   .griffith-info {
     margin-left: 15%;
     margin-right: 15%;
+  }
+
+  .mobile-none {
+    visibility: hidden;
   }
 }
