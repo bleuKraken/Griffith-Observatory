@@ -13,6 +13,14 @@
 </head>
 
 <body>
+
+  <!--
+  TODO: For the "Astronomy News" sections, change the border boxes of the links
+  to a darker color.
+  TODO: Change the backgrounf color for the observation section also.
+  TODO: Change Background color for horizontal break
+  TODO: Smile! (:
+  -->
   <!-- STORY BEGINS -->
   <nav class="navbar navbar-tweaks navbar-expand-md">
     <a class="navbar-brand text-light" href="#">Griffith Observatory</a>
@@ -51,14 +59,8 @@
   </nav>
 
   <!-- SECTION: PHOTO WITH TEXT AND BUTTON -->
-  <section id="main-photo" class="text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 py-3 ">
-        </div>
-      </div>
-    </div>
-  </section>
+  <div id="main-photo" class="">
+  </div>
 
   <!-- BUTTON INSIDE PIC -->
   <section class="d-flex justify-content-center">
@@ -72,7 +74,7 @@
   <section class="d-none d-md-block">
     <!-- LARGE PHOTO OF LIBRARY -->
     <div class="visit-official-photo-link">
-      <div class="pt-3 container-fluid">
+      <div class="pt-5 container-fluid">
         <a class="official-text text-center text-light display-3" href="#">Visit Official Site</a>
       </div>
     </div>
@@ -80,6 +82,30 @@
 
   <!-- SECTION HOURS -->
   <section id="hours" class="container-fluid">
+
+
+
+    <!-- ROW PHONE AND ADDRESS -->
+    <div class="row bg-dark text-light">
+      <!-- COL -->
+      <div class="col-sm-6 pt-3 text-center border-right">
+        <p>
+          <i class="fas fa-map-marker-alt text-danger fa-2x"></i>
+        </p>
+        <h5 class="font-weight-bold">Address </h5>
+        <p>2800 E Observatory Rd, Los Angeles, CA 90027</p>
+      </div>
+      <!-- COL -->
+      <div class="col-sm-6 mt-3 text-center">
+        <i class="fas fa-phone-alt text-primary fa-2x"></i>
+        <h5 class="font-weight-bold mt-3"> Phone </h5>
+        <p>213-473-0800</p>
+      </div>
+    </div>
+
+
+
+
     <!-- ROW HOLIDAY CLOSED -->
     <div class="row">
       <!-- COL LEFT -->
@@ -87,7 +113,7 @@
         <!-- ICON -->
         <div class="icon-box d-flex justify-content-center">
           <p class="text-center group-info-icons text-primary">
-            <i class="far fa-clock fa-5x"></i>
+            <i class="far fa-clock fa-3x"></i>
           </p>
         </div>
         <!-- CONTENT -->
@@ -103,7 +129,7 @@
         <!-- ICON -->
         <div class="icon-box d-flex justify-content-center">
           <p class="text-center group-info-icons text-primary">
-            <i class="fas fa-tags fa-5x text-danger"></i>
+            <i class="fas fa-tags fa-3x text-danger"></i>
           </p>
         </div>
         <!-- CONTENT -->
@@ -119,7 +145,7 @@
         <!-- ICON -->
         <div class="icon-box d-flex justify-content-center">
           <p class="text-center group-info-icons text-primary">
-            <i class="fas fa-question fa-5x"></i>
+            <i class="fas fa-question fa-3x"></i>
           </p>
         </div>
         <!-- CONTENT -->
@@ -140,36 +166,22 @@
         </div>
       </div>
     </div>
-    <!-- ROW PHONE AND ADDRESS -->
-    <div class="row bg-dark text-light py-5">
-      <div class="col-sm-6 mt-3 text-center">
-        <p>
-          <i class="fas fa-map-marker-alt text-danger fa-3x"></i>
-        </p>
-        <h4 class="font-weight-bold">Address </h4>
-        <p>2800 E Observatory Rd, Los Angeles, CA 90027</p>
-      </div>
-      <div class="col-sm-6 mt-3 text-center">
-        <i class="fas fa-phone-alt text-primary fa-3x"></i>
-        <h4 class="font-weight-bold mt-3"> Phone </h4>
-        <p>213-473-0800</p>
-      </div>
-    </div>
+
   </section>
 
   <!-- SECTION BUTTON -->
   <section id="things-to-do">
-    <div class="container-fluid bg-success">
+    <div class="container-fluid bg-dark">
       <div class="row">
-        <div class="col text-center p-4">
-          <button class="btn btn-outline-dark bg-dark text-white font-weight-bold btn-lg" href="#">Griffith: Things to Do</button>
+        <div class="col text-center py-3">
+          <button class="btn btn-outline-light bg-light text-dark font-weight-bold btn-lg" href="#">Griffith: Things to Do</button>
         </div>
       </div>
     </div>
   </section>
 
   <!-- SECTION FOR ASTRONOMY NEWS -->
-  <section class="container-fluid bg-white">
+  <section class="container-fluid bg-secondary">
     <!-- ROW -->
     <div class="row">
       <div class="col pl-5">
@@ -183,7 +195,7 @@
       <!-- COL -->
       <div class="col-md-6 py-4">
         <!-- OBSERVATORY NEWS IMAGE -->
-        <div class="d-sm-none d-md-block">
+        <div class=" photo-sm-none">
           <div id="astronomy-news-image">
           </div>
         </div>
@@ -193,13 +205,13 @@
         <div class="vertical-container">
           <!-- ROW ITEM -->
           <div class="row border p-3">
-            <a href="#">Observatory News Archives</a>
-            <p class="text-dark">A listing of prior events and activities.</p>
+            <a href="#" class="w-100 h5">Observatory News Archives</a>
+            <p class="text-dark w-100">A listing of prior events and activities.</p>
           </div>
           <!-- ROW ITEM -->
           <div class="row border p-3">
-            <a href="#">Follow Griffith Observatory TV!</a>
-            <p class="text-dark">Watch live and archived events.</p>
+            <a href="#" class="w-100 h5">Follow Griffith Observatory TV!</a>
+            <p class="text-dark w-100">Watch live and archived events.</p>
           </div>
         </div>
       </div>
@@ -220,14 +232,14 @@
       <div class="col-md-6 vertical-center">
         <div class="vertical-container">
           <!-- ROW ITEM -->
-          <div class="row border p-3 d-flex justify-content-end">
-            <a href="#">Observatory News Archives</a>
-            <p class="text-dark">A listing of prior events and activities.</p>
+          <div class="row border p-3">
+            <a href="#" class="w-100 text-right h5">Observatory News Archives</a>
+            <p class="text-dark w-100 text-right">A listing of prior events and activities.</p>
           </div>
           <!-- ROW ITEM -->
-          <div class="row border p-3 d-flex justify-content-end">
-            <a href="#">Follow Griffith Observatory TV!</a>
-            <p class="text-dark ">Watch live and archived events.</p>
+          <div class="row border p-3">
+            <a href="#" class="w-100 text-right h5">Follow Griffith Observatory TV!</a>
+            <p class="text-dark w-100 text-right">Watch live and archived events.</p>
           </div>
         </div>
       </div>
@@ -237,11 +249,10 @@
           <u>Observatory News</u>
         </h4>
         <!-- OBSERVATORY NEWS IMAGE -->
-        <div class="d-sm-none d-md-block">
+        <div class="photo-sm-none">
           <div id="observatory-news-image">
           </div>
         </div>
-
       </div>
     </div>
   </section>

@@ -14,10 +14,12 @@ body {
   color: rgb(89, 148, 221) !important;
 }
 
-
-
 .bg-success {
   background-color: rgb(166, 241, 211) !important;
+}
+
+.bg-secondary {
+  background-color: rgb(228, 228, 228) !important;
 }
 
 .navbar-tweaks {
@@ -38,13 +40,11 @@ body {
 
 .group-info-icons {
   margin-top: 20px;
-  padding: 50px;
+  padding: 30px;
   border: 5px solid black;
   border-radius: 20%;
   max-width: 250px;
 }
-
-
 
 .visit-official-photo-link {
   background-size: 100%;
@@ -58,13 +58,31 @@ body {
 
 #main-photo {
   margin-top: -60px;
+  background: url("https://images.unsplash.com/photo-1518533954129-7774297db60f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2978&q=80") no-repeat scroll 0px 100% / cover transparent;
+  min-height: 500px;
+  height: 100vh;
+  overflow: auto;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+/*
+#main-photo {
+  margin-top: -60px;
   background: url("https://images.unsplash.com/photo-1518533954129-7774297db60f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2978&q=80");
   background-size: cover;
   background-position: center center;
-  min-height: 750px;
+  min-height: 700px;
   height: auto;
-}
 
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+
+}
+*/
 #footer {
   background: url("https://images.unsplash.com/photo-1566035610402-67e4728390c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2648&q=80");
   background-size: cover;
@@ -85,16 +103,15 @@ body {
 }
 
 #astronomy-news-image {
-  background: url("https://source.unsplash.com/random/500x501/?griffith");
+  background: url("https://source.unsplash.com/random/960x541/?griffith");
   /* background-size: contain; */
   background-position: center center;
   min-height: 300px;
 }
 
 #observatory-news-image {
-  background: url("https://source.unsplash.com/random/501x500/?griffith");
-  /* background-size: contain; */
-  background-position: center center;
+  background: url("https://source.unsplash.com/random/960x540/?griffith");
+  background-position: center;
   min-height: 300px;
 }
 
@@ -116,7 +133,6 @@ body {
   border: 2px solid black;
 }
 
-
 @media only screen and (max-width: 600px) {
   #main-photo {
     min-height: 450px;
@@ -137,5 +153,18 @@ body {
 
   .mobile-none {
     visibility: hidden;
+  }
+
+  .group-info-icons {
+    margin-top: 20px;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 20%;
+    max-width: 250px;
+    min-width: 110px;
+  }
+
+  .photo-sm-none {
+    display: none;
   }
 }
